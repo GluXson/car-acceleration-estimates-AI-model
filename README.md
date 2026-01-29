@@ -35,25 +35,6 @@ Multi-Layer Perceptron (MLP) model trained on the Auto MPG dataset from UCI Mach
 - **Loss function**: MSE (Mean Squared Error)
 - **Optimizer**: Adam (lr=0.001)
 
-## 📁 Project Structure
-
-fuel-prediction/
-├── data/
-│ ├── raw/ # Automatically downloaded data
-│ └── examples/ # Sample input files
-├── models/ # Trained models (.pth)
-├── results/
-│ └── plots/ # Plots (loss curves, predictions)
-├── src/
-│ ├── model.py # MLP architecture definition
-│ ├── dataset.py # Dataset loader + preprocessing
-│ └── trainer.py # Training manager class
-├── download_data.py # Data download script
-├── train.py # Main training script
-├── evaluate.py # Evaluation + demo
-├── requirements.txt # Dependencies
-└── README.md
-
 ## 🚀 Installation and Usage
 
 ### 1. Clone repository
